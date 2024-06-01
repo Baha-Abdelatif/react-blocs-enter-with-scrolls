@@ -1,0 +1,46 @@
+nav {
+  width: 100vw;
+  height: 10vh;
+  background-color: $gray1;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000000;
+  .logo {
+    background-color: $gray5;
+    width: 5vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      background-color: $gray1;
+      width: 3.5vh;
+      height: 3.5vh;
+      border-radius: 50px;
+    }
+  }
+  .menu-nav {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .menu-links {
+      margin: 0;
+      width: 100%;
+      list-style: none;
+      display: inline-flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .menu-items {
+      text-transform: capitalize;
+    }
+  }
+}
